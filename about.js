@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
       200,
       function () {
         $('#slider ul li:first-child').appendTo('#slider ul');
-        $('#slider ul').css('left', '');
+        $('#slider ul').css('left', 'right');
       }
     );
   }
